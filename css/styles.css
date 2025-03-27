@@ -160,7 +160,13 @@ gap: 40px;
 /* hero */
 
 .hero {
-background-color: #2e2f42;
+background-color: rgba(46, 47, 66, 0.7);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)),
+url(../images/hero-background.jpg);
+background-repeat: no-repeat;
+margin: 0 auto;
+max-width: 1440px;
 color: #fff;
 padding: 188px 0;
 }
@@ -190,6 +196,7 @@ padding: 188px 0;
         padding: 16px 32px;
         min-width: 169px;
         height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-title-btn:hover,
